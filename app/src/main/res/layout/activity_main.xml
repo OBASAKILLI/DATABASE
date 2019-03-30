@@ -1,0 +1,265 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:background="#87CEFA"
+>
+    <TextView android:layout_width="352dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="50dp"
+              android:textSize="30dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:text="Students Registration Form"
+              android:fontFamily="sans-serif-condensed-light"
+              android:textColor="@android:color/white"/>
+
+    <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="7dp"
+            app:cardCornerRadius="10dp">
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    android:gravity="center"/>
+
+
+            <LinearLayout
+                    android:gravity="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First Name:"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"/>
+                <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter firs name here"
+                        android:id="@+id/fname"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent">
+
+            </View>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="end"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SurName:"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"/>
+                <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Second name here"
+                        android:id="@+id/sname"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                />
+
+
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent">
+
+            </View>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Age:"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"/>
+                <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter third name here"
+                        android:id="@+id/age"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent">
+
+            </View>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ID:"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"/>
+                <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter ID"
+                        android:id="@+id/id"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                />
+
+
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent">
+
+            </View>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp">
+
+                <android.support.v7.widget.AppCompatButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/insert"
+                        android:layout_gravity="end"
+                        android:background="@color/colorAccent"
+                        android:text="InsertBtn"
+                        android:layout_margin="5dp"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/white"/>
+                <Button
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:layout_gravity="end"
+                        android:id="@+id/update"
+                        android:background="@color/colorAccent"
+                        android:text="UpdateBtn"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/white"/>
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:background="@color/colorAccent"
+                        android:textSize="10dp"
+                        android:id="@+id/delete"
+                        android:text="DeleteBtn"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/white"/>
+
+
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent">
+
+            </View>
+            <Button android:layout_width="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:text="ViewBtn"
+                    android:id="@+id/view"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#3d455b"
+                android:layout_alignParentLeft="true" >
+
+            <HorizontalScrollView
+                    android:id="@+id/hscrll1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                        android:id="@+id/RelativeLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                    <TableLayout
+                            android:id="@+id/table_main"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true" >
+                    </TableLayout>
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
